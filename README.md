@@ -21,3 +21,7 @@ Jupyter notebooks for the three experiments carried out in the paper are provide
 'PWI_VLP_Phonology.ipynb' - Phonological Relatedness
 
 'PWI_VLP_Bilingual.ipynb' - Bilingual Relatedness
+
+### Plot results
+
+'Plot_PWI_Results.ipynb'
