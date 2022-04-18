@@ -105,13 +105,13 @@ from pprint import pprint
 
 '''
 mode:
-1 for vqa
+1 for vqa english model
 2 for english pretrain
 3 for multilingual (english + german) pretrain
 4 for vqa multilingual finetune training
 5 for vqa multilingual model
-
 '''
+
 mode = 5
 
 if mode == 1:
