@@ -14,7 +14,10 @@ We provide jupyter notebook 'VLP_Pretaining.ipynb' for pre-training. Monolingual
 
 ### VQA modeling
 
-Jupyter notebooks for the three experiments are provided:
+Jupyter notebooks for the three experiments carried out in the paper are provided:
+
 'PWI_VLP_Semantics.ipynb' - Semantic Relatedness
+
 'PWI_VLP_Phonology.ipynb' - Phonological Relatedness
+
 'PWI_VLP_Bilingual.ipynb' - Bilingual Relatedness
