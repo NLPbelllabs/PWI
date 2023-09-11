@@ -1,6 +1,20 @@
+
+
+
+
+
 ### Introduction 
 
 This repository contains code for the paper "<b>Human-Like Distractor Response in Vision-Language Model</b>"
+
+## Abstract 
+Previous studies exploring the human-like capabilities of machine-learning models have primarily focused on pure language models. 
+Limited attention has been given to investigating whether models exhibit human-like behavior when performing tasks that require the integration of visual and language information.
+In this study, we investigate the impact of tags of semantic, phonological, and bilingual features on the visual question answering task performance of an unsupervised model. 
+Our findings reveal its similarities with the influence of distractors in the picture-naming task (known as the picture-word-interference paradigm) observed in human experiments: 
+1) Semantically-related tags have a more negative effect on task performance compared to unrelated tags, indicating a more robust competition between visual and tag information which are semantically closer to each other when generating an answer. 
+2) Even presenting a partial section (wordpiece) of the originally detected tag significantly improves task performance, with the portion that plays a lesser role in determining the overall meaning of the original tag leading to a more pronounced improvement. 
+3) Tags in two languages that refer to the same meaning  exhibit a symmetrical-like effect on performance in balanced bilingual models.
 
 We adopt [VisualBERT](https://github.com/uclanlp/visualbert) to investigate tags' functionality from the perspective of semantic-, phonological- and bilingual-relatedness, where the original tag of the input triple is replaced by a word with various features to probe its influence on VQA task performance.
 
