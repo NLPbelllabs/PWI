@@ -3,11 +3,11 @@
 
 
 
-### Introduction 
+# Introduction 
 
 This repository contains code for the paper "<b>Human-Like Distractor Response in Vision-Language Model</b>"
 
-#### Abstract 
+## Abstract 
 Previous studies exploring the human-like capabilities of machine-learning models have primarily focused on pure language models. 
 Limited attention has been given to investigating whether models exhibit human-like behavior when performing tasks that require the integration of visual and language information.
 In this study, we investigate the impact of tags of semantic, phonological, and bilingual features on the visual question answering task performance of an unsupervised model. 
